@@ -1,0 +1,13 @@
+prefix=/Users/rush/Prompt_PDF/myenv
+exec_prefix=/Users/rush/Prompt_PDF/myenv
+libdir=/Users/rush/Prompt_PDF/myenv/lib
+sharedlibdir=/Users/rush/Prompt_PDF/myenv/lib
+includedir=/Users/rush/Prompt_PDF/myenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

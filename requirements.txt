@@ -1,0 +1,8 @@
+openai
+langchain_openai
+streamlit
+PyPDF2
+faiss-cpu
+tiktoken
+type-extensions
+typing
