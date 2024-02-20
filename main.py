@@ -2,7 +2,7 @@ import os
 from langchain_openai import OpenAI
 
 import streamlit as st
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 # Streamlit framework
 
 st.title('Using Langchain to read Personal files')

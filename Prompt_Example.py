@@ -6,7 +6,7 @@ from langchain.chains import SequentialChain
 from langchain.memory import ConversationBufferMemory
 
 import streamlit as st
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 # Streamlit framework
 
 st.title('Using Langchain to read Personal files')
